@@ -1,0 +1,56 @@
+/* ---------------------------MEDIA (MIN-WIDTH:820px)------------------- */
+
+@media screen and (min-width: 821px) {
+
+
+.about,
+.features,
+.premises,
+.gallery,
+.contacts {
+    max-width: 1439px;
+}
+
+.about-title-wrapper,
+.gallery_title-wrapper,
+.features_title-wrapper,
+.premises_title-wrapper,
+.contacts_title-wrapper {
+    right: 275px;
+    left: 275px;
+}
+
+}
+
+/* ---------------------------MEDIA (MIN-WIDTH:1440px)------------------- */
+
+@media screen and (min-width: 1440px) {
+    .about,
+    .features,
+    .premises,
+    .gallery,
+    .contacts {
+        min-width: 1440px;
+    }
+
+    .about-title-wrapper,
+    .gallery_title-wrapper,
+    .features_title-wrapper,
+    .premises_title-wrapper,
+    .contacts_title-wrapper {
+        width: 486px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.about-title,
+.features_title,
+.premises_title,
+.gallery_title,
+.contacts_title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+}

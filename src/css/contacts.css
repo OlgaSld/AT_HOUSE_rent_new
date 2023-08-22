@@ -1,0 +1,79 @@
+/* ============================== CONTACTS  =============================== */
+.contacts-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts-phone {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+.contacts-tel {
+    color: #515050;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.map {
+    display: block;
+    margin-bottom: 41px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.google-map {
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.map-for-desctop {
+    display: none;
+}
+
+
+@media screen and (min-width: 821px) {
+
+.wrapper-contacts {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    gap: 75px;
+}
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .wrapper-contacts {
+        margin-left: 131px;
+        margin-top: 154px;
+        margin-bottom: 93px;
+        gap: 100px;
+    }
+
+    .map-for-desctop {
+        display: block;
+    }
+
+    .google-map {
+        display: none;
+    }
+
+}
+/* ============================== /CONTACTS  =============================== */
