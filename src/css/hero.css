@@ -1,5 +1,7 @@
 /* ============================== HERO  =============================== */
 .hero {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 575px;
     padding-bottom: 72px;
     background-image: url(../images/hero/471_882-min.jpg);

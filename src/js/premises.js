@@ -1,4 +1,3 @@
-
 const wrapper = document.querySelector('.block-photo-premises');
 console.log(wrapper)
 

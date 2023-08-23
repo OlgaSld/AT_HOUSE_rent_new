@@ -1,10 +1,14 @@
 /* ============================== FOOTER  =============================== */
 
 .footer {
-    max-width: 820px;
+    /* max-width: 820px; */
     background-color: #00538F;
     padding-top: 42px;
     padding-bottom: 142px;
+}
+
+.footer-container {
+    max-width: 820px;
 }
 
 .footer-logo {
@@ -30,6 +34,11 @@
     line-height: normal;
 }
 
+.footer-tel:hover, .footer-tel:focus,
+.footer-email:hover, .footer-email:focus {
+    transform: scale(1.2);
+}              
+
 .footer-email {
     margin-top: 21px;
 }
@@ -42,6 +51,7 @@
     }
 
     .footer-logo {
+        max-width: 750px;
         display: flex;
         justify-content: space-between;
         margin-left: 90px;
@@ -64,6 +74,14 @@
         width: 264px;
         margin-bottom: 0;
     }
+
+}
+
+
+@media screen and (min-width: 821px) {
+.footer-logo {
+    max-width: 1210px;
+}
 
 }
 /* ============================== /FOOTER  =============================== */

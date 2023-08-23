@@ -75,5 +75,12 @@
         display: none;
     }
 
+    .contacts-tel {
+        font-size: 30px;
+    }
+
+    .contacts-phone:hover, .contacts-phone:focus {
+        transform: scale(1.2);
+    }
 }
 /* ============================== /CONTACTS  =============================== */

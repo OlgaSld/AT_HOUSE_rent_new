@@ -3,24 +3,25 @@
 @media screen and (min-width: 821px) {
 
 .container {
-    max-width: 1409px;
+    max-width: 1200px;
 }
 
-.about,
+/* .about,
 .features,
 .premises,
 .gallery,
 .contacts {
     max-width: 1439px;
-}
+} */
 
 .about-title-wrapper,
 .gallery_title-wrapper,
 .features_title-wrapper,
 .premises_title-wrapper,
 .contacts_title-wrapper {
-    right: 275px;
-    left: 275px;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 486px;
 }
 
 }
@@ -30,27 +31,25 @@
 @media screen and (min-width: 1440px) {
     
     .container {
-        max-width: 1440px;
+        max-width: 1410px;
     }
 
-
-    .about,
+    /* .about,
     .features,
     .premises,
     .gallery,
     .contacts {
         min-width: 1440px;
     }
-
-    .about-title-wrapper,
+ */
+    /* .about-title-wrapper,
     .gallery_title-wrapper,
     .features_title-wrapper,
     .premises_title-wrapper,
     .contacts_title-wrapper {
-        width: 486px;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
 .about-title,
 .features_title,

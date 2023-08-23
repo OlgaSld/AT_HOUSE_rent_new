@@ -19,7 +19,9 @@
 .premises,
 .gallery,
 .contacts {
-    max-width: 820px;
+    /* max-width: 820px; */
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
@@ -30,6 +32,8 @@
 
 .border-about,
 .border-gallery {
+        padding-left: 0;
+            padding-right: 0;
     background: linear-gradient(to right, #E7382F 50%, #00538F 50%);
 }
 
