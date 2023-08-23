@@ -102,7 +102,7 @@
     }
 
     .header-item:hover, .header-item:focus {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 

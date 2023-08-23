@@ -1,30 +1,6 @@
-const wrapper = document.querySelector('.block-photo-premises');
-console.log(wrapper)
+import { gallery } from "./gallery";
 
-const gallery = [
-    {
-        img: "../images/premises/mobile/013/013_273_322-min.jpg",
-        square: "51,7 метри",
-        info: "-1 (напівпідвальний) поверх 013. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-    {
-        img: "../images/premises/mobile/014/014_273_322-min.jpg",
-        square: "51,5 метри",
-        title: "може бути суміжний з 015",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-    {
-        img: "../images/premises/mobile/015/015_273_322-min.jpg",
-        square: "50,7 метри",
-        title: "може бути суміжний з 014",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-        {
-        img: "../images/premises/mobile/016/016_273_322-min.jpg",
-        square: "49,5 метри",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-]
+const wrapper = document.querySelector('.block-photo-premises');
 
 function createMarkup(arr) {
     return arr.map(({ img, square, title, info }) => 
