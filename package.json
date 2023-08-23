@@ -9,12 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "git+https://github.com/OlgaSld/AT_HOUSE_rent"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"

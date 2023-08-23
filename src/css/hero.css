@@ -116,6 +116,7 @@
     .hero {
         padding-top: 622px;
         padding-bottom: 126px;
+        max-width: 1440px;
         background-image: url(../images/hero/1440_1024-min.jpg);
         background-position: center;
         background-size: cover;
@@ -123,7 +124,7 @@
     }
 
     .hero-container {
-        width: 1440px;
+        /* width: 1440px; */
         margin-left: 0;
         padding-left: 0;
     }

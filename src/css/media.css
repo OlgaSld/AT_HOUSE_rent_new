@@ -2,6 +2,9 @@
 
 @media screen and (min-width: 821px) {
 
+.container {
+    max-width: 1409px;
+}
 
 .about,
 .features,
@@ -22,9 +25,15 @@
 
 }
 
-/* ---------------------------MEDIA (MIN-WIDTH:1440px)------------------- */
+/* ---------------------------MEDIA (MIN-WIDTH:1600px)------------------- */
 
 @media screen and (min-width: 1440px) {
+    
+    .container {
+        max-width: 1440px;
+    }
+
+
     .about,
     .features,
     .premises,
