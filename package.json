@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://OlgaSld/AT_HOUSE_rent",
+  "homepage": "https://OlgaSld/AT_HOUSE_rent_new",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /AT_HOUSE_rent/"
+    "build": "parcel build src/*.html --public-url /AT_HOUSE_rent_new/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/OlgaSld/AT_HOUSE_rent_new"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
