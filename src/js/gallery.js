@@ -1,9 +1,11 @@
 // import Swiper from 'swiper';
 
 var swiper = new Swiper('.mySwiper', {
+      // modules: [Navigation, Pagination],
+
     slidesPerView: 1,
     spaceBetween: 10,
-  centeredSlides: true,
+   centeredSlides: true,
     enabled: true,
     initialSlide: 1,
     loop: true,
@@ -31,8 +33,12 @@ var swiper = new Swiper('.mySwiper', {
   // },
 });
 
-const gallery = document.querySelector('.gallery-photo')
 
-const block = document.querySelectorAll('.second')
-console.log(block)
+const nextEl = document.querySelector('.swiper-button-next');
+
+nextEl.addEventListener('click', () => {
+  swiper.slideNext();
+});
+
+
 

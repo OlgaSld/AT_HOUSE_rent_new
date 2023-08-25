@@ -2,5 +2,5 @@ import './js/menu';
 import './js/premises';
 import './js/text';
 import './js/gallery';
-// import './js/gallery_array';
+import './js/scroll-top'
 // import './js/wrapper';
