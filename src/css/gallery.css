@@ -5,6 +5,11 @@
     gap: 10px; */
 }
 
+.swiper-slide-gal {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* .wrapper-slide {
     width: 471px;

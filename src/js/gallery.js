@@ -5,12 +5,12 @@ var swiper = new Swiper('.mySwiper', {
     spaceBetween: 10,
   centeredSlides: true,
     enabled: true,
-    // initialSlide: 1,
+    initialSlide: 1,
     loop: true,
-    // keyboard: {
-    //   enabled: true,
-    //   onlyInViewport: true,
-    // },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+    },
   // pagination: {
   //       el: '.swiper-pagination',
   //       clickable: true,
