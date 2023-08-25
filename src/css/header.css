@@ -90,6 +90,7 @@
         /* width: 700px; */
         justify-content: center;
         align-items: center;
+        padding-left: 15px;
     }
 
     .header-list {

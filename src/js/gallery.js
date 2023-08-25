@@ -1,24 +1,38 @@
-export const gallery = [
-    {
-        img: "../images/premises/013_mob/013_273_322-min.jpg",
-        square: "51,7 метри",
-        info: "-1 (напівпідвальний) поверх 013. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-    {
-        img: "../images/premises/014_mob/014_273_322-min.jpg",
-        square: "51,5 метри",
-        title: "може бути суміжний з 015",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-    {
-        img: "../images/premises/015_mob/015_273_322-min.jpg",
-        square: "50,7 метри",
-        title: "може бути суміжний з 014",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-        {
-        img: "../images/premises/016_mob/016_273_322-min.jpg",
-        square: "49,5 метри",
-        info: "-1 (напівпідвальний) поверх. Кабінет правильної прямокутної форми.Покриття лінолеум",
-    },
-]
+// import Swiper from 'swiper';
+
+var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+  centeredSlides: true,
+    enabled: true,
+    // initialSlide: 1,
+    loop: true,
+    // keyboard: {
+    //   enabled: true,
+    //   onlyInViewport: true,
+    // },
+  // pagination: {
+  //       el: '.swiper-pagination',
+  //       clickable: true,
+  //       renderBullet: function (index, className) {
+  //         return '<span class="' + className + '">' + (index + 1) + "</span>";
+  //       },
+  // },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+});
+
+const gallery = document.querySelector('.gallery-photo')
+
+const block = document.querySelectorAll('.second')
+console.log(block)
+

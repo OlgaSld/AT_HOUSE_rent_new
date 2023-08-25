@@ -1,0 +1,108 @@
+/* ============================== PREMISES  =============================== */
+.premises_title-wrapper {
+    margin-bottom: 60px;
+}
+
+.block-photo-premises {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* gap: 35px; */
+    margin: 93px auto 83px;
+    background: #FFF;
+    box-shadow: 2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06), -2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* .free-premices-item {
+    width: 296px;
+} */
+
+.more-detail {
+    display: block;
+    padding: 5px 14px;
+    background: #00538F;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 17px auto 30px;
+}
+
+.wrapper-text {
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.free-premises-sq {
+    color: #00538F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.free-premises-title {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 11px;
+}
+
+.free-premises-info {
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    width: 210px;
+}
+
+
+
+
+@media screen and (min-width: 821px) {
+.free-premises-sq {
+    font-size: 30px;
+}
+
+.free-premises-title {
+    font-size: 24px;
+}
+
+.free-premises-info {
+    font-size: 20px;
+    width: 371px;
+    margin-bottom: 24px;
+}
+
+.wrapper-text {
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.more-detail {
+    padding: 9px 25px;
+    font-size: 21px;
+}
+
+.free-premises-img {
+    width: 364px;
+    height: 429px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .free-premises-sq {
+        font-size: 36px;
+    }
+
+    .wrapper-text {
+        padding-left: 76px;
+        padding-right: 76px;
+    }
+}
+
+/* ============================== /PREMISES  =============================== */

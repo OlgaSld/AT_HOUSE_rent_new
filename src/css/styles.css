@@ -88,75 +88,9 @@
 
 
 
-/* ============================== PREMISES  =============================== */
-
-.block-photo-premises {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    gap: 35px;
-    margin: 93px auto 83px;
-    background: #FFF;
-    box-shadow: 2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06), -2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06);
-}
-
-.free-premices-item {
-    min-width: 296px;
-}
-
-.more-detail {
-    display: block;
-    padding: 5px 14px;
-    background: #00538F;
-    color: #FFF;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: normal;
-    margin: 17px auto 15px;
-}
-
-.wrapper-text {
-    padding-left: 44px;
-    padding-right: 44px;
-}
-
-.free-premises-sq {
-    color: #00538F;
-    font-size: 20.528px;
-    font-weight: 500;
-    line-height: normal;
-    text-align: center;
-    margin-top: 6px;
-}
-
-.free-premises-title {
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 11px;
-}
-
-.free-premises-info {
-    color: #000;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: normal;
-}
-
-/* .all-free-premises {
-    display: flex;
-} */
-
-/* ============================== /PREMISES  =============================== */
 
 /* ============================== GALLERY  =============================== */
 
-.gallery-photo {
-    margin-top: 71px;
-    margin-bottom: 52px;
-}
 /* ============================== /GALLERY  =============================== */
 
 
