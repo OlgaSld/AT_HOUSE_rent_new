@@ -1,5 +1,5 @@
 
-import { morePremices } from "./premices_array";
+import { morePremices } from './premices_array';
 
 const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
