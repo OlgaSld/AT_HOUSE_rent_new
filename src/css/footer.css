@@ -2,7 +2,7 @@
 
 .footer {
     /* max-width: 820px; */
-    background-color: #00538F;
+    background-color: var(--brand-color-blue);
     padding-top: 42px;
     padding-bottom: 142px;
 }
@@ -28,10 +28,9 @@
 .footer-tel,
 .footer-email {
     display: block;
-    color: #FFF;
+    color: var(--color-text-accent);
     font-size: 24px;
     font-weight: 400;
-    line-height: normal;
 }
 
 .footer-tel:hover, .footer-tel:focus,
@@ -57,7 +56,6 @@
         margin-left: 90px;
         margin-right: 90px;
         margin-top: 52px;
-        /* max-width: 1200px; */
     }
 
     .logo {

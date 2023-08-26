@@ -1,16 +1,11 @@
 .scroll {
     position: fixed;
     z-index: 10;
-    top: 80%;
-    right: 10%;
-    width: 54px;
-    height: 54px;
-    border-radius: 50%;
-    background-color: #000;
-    box-shadow: 0px 0px 0px 5px #4f2ee84d;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
+    bottom: 51px;
+    right: 51px;
+    width: 78px;
+    height: 72px;
+    background-color: transparent;
     cursor: pointer;
     display: none;
 }
@@ -19,11 +14,7 @@
     display: flex;
 }
 
-.scroll svg {
-    fill: #fff;
-}
-
 .scroll:hover svg,
 .scroll:focus svg {
-    fill: red;
+    stroke: var(--brand-color-blue);
 }

@@ -1,16 +1,19 @@
-// import Swiper from 'swiper';
 
 import { morePremices } from "./premices_array";
-// import SimpleLightbox from "simplelightbox";
-// import "simplelightbox/dist/simple-lightbox.min.css"
 
 const swiper = new Swiper('.swiper', {
-  // //  configure Swiper to use modules
-  //   modules: [Navigation, Pagination],
     slidesPerView: 1,
     spaceBetween: 10,
-    centeredSlides: true,
-    // initialSlide: 1,
+  centeredSlides: true,
+        initialSlide: 1,
+  effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 30,
+    slideShadows: false,
+  },
+    keyboard: {
+      enabled: false,
+  },
   loop: true,
     breakpoints: {
     // when window width is >= 320px
@@ -52,12 +55,7 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: '.swiper-scrollbar',
-  // },
 });
-
 
 const nextEl = document.querySelector('.swiper-button-next');
 
@@ -67,42 +65,52 @@ nextEl.addEventListener('click', () => {
 
 
 
-const btnPhoto = document.querySelector('.more-detail');
-const morePhoto = document.querySelector('.more-premices')
-const container = document.querySelector('.premises-swiper')
-console.log(morePhoto)
 
-btnPhoto.addEventListener('click', onOpenPhoto)
+const btnPhoto = document.querySelectorAll('.more-detail');
+const morePhoto = document.querySelector('.more-premices');
+const closePhoto = document.querySelector('.close-photo')
 
-// container.innerHTML = ""
+closePhoto.classList.add('visually-hidden')
 
-function onOpenPhoto() {
-  morePhoto.insertAdjacentHTML('beforeend', createMarkup(morePremices));
-}
+btnPhoto.forEach((button) => {
+  button.addEventListener('click', onOpenPhoto)});
 
-function createMarkup(arr) {
-  return arr.map(({ img1, img2, img3, img4, src }) =>
-    `<li class="js-photo-prem">
+function onOpenPhoto(e) {
+  e.preventDefault();
+  const btnId = e.target.dataset.id;
+
+  const markup = morePremices.filter(({id}) => id === btnId).map(({ id, img1m, img2m, img3m, img4m, img1d, img2d, img3d, img4d, src }) =>
+    `<li class="js-photo-prem" data-id=${id}>
         <picture>
-        <source srcset=${img2}" media="(min-width: 821px)" />
-        <source srcset=${img1} media="(max-width: 820px)" />
-          <img src="${img1}" alt="${src}">
+        <source srcset=${img1d}" media="(min-width: 821px)" />
+        <source srcset=${img1m} media="(max-width: 820px)" />
+          <img src="${img1m}" alt="${src}" width="471" height="354">
           </picture>
         <picture>
-        <source srcset=${img2}" media="(min-width: 821px)" />
-        <source srcset=${img2} media="(max-width: 820px)" />
-          <img src="${img2}" alt="${src}">
+        <source srcset=${img2d}" media="(min-width: 821px)" />
+        <source srcset=${img2m} media="(max-width: 820px)" />
+          <img src="${img2m}" alt="${src}">
           </picture>
         <picture>
-        <source srcset=${img2}" media="(min-width: 821px)" />
-        <source srcset=${img3} media="(max-width: 820px)" />
-          <img src="${img3}" alt="${src}">
+        <source srcset=${img3d}" media="(min-width: 821px)" />
+        <source srcset=${img3m} media="(max-width: 820px)" />
+          <img src="${img3m}" alt="${src}">
           </picture>
         <picture>
-        <source srcset=${img2}" media="(min-width: 821px)" />
-        <source srcset=${img4} media="(max-width: 820px)" />
-          <img src="${img4}" alt="${src}">
+        <source srcset=${img4d}" media="(min-width: 821px)" />
+        <source srcset=${img4m} media="(max-width: 820px)" />
+          <img src="${img4m}" alt="${src}">
           </picture>
         </li>`).join('');
+  morePhoto.insertAdjacentHTML('beforeend', markup)
+  closePhoto.classList.remove('visually-hidden')
+}
+
+
+closePhoto.addEventListener('click', onClosePhoto)
+
+function onClosePhoto() {
+  morePhoto.innerHTML = '';
+  closePhoto.classList.add('visually-hidden');
 }
 

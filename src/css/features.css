@@ -26,22 +26,20 @@
 }
 
 .feutures-subtitle {
-    color: #515050;
+    color: var(--color-text-secondary);
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
 .feutures-text {
     width: 308px;
-    color: #515050;
+    color: var(--color-text-secondary);
     text-align: center;
     font-size: 20px;
     font-weight: 300;
-    line-height: normal;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
@@ -83,7 +81,7 @@
 .feutures-text {
     font-size: 26px;
     line-height: 1.2;
-    color: var(--background-dark);
+    color: var(--color-text-secondary);
 }
 
     .feutures-text,

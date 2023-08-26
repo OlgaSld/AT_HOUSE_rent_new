@@ -12,18 +12,16 @@
 
 .hero-container {
     max-width: 820px;
-    /* display: flex; */
     padding-right: 15px;
     padding-left: 15px;
 
 }
 
 .hero-title {
-    color: #FFF;
+    color: var(--color-text-accent);
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    line-height: normal;
 }
 
 .hero-phone {
@@ -49,15 +47,13 @@
 }
 
 .address-tel {
-    color: #FFF;
+    color: var(--color-text-accent);
     font-size: 24px;
     font-weight: 400;
-    line-height: normal;
     margin-left: 6px;
 }
 
 .hero-title-wrapper {
-    /* max-width: 820px; */
     max-width: 410px;
     margin-left: auto;
     margin-right: auto;
@@ -69,14 +65,12 @@
 
 
 
-
 @media screen and (min-width: 821px) {
     .hero-container {
             max-width: 1439px;
         }
     
         .wrapper-hero {
-            /* max-width: 1250px; */
             display: flex;
             margin-top: 300px;
             justify-content: space-between;
@@ -127,7 +121,6 @@
     }
 
     .hero-container {
-        /* width: 1440px; */
         margin-left: 0;
         padding-left: 0;
     }
@@ -151,8 +144,6 @@
         margin-left: 37px;
         margin-right: 33px;
         font-size: 66px;
-        /* padding-top: 25px;
-        padding-bottom: 35px; */
     }
 }
 /* ============================== /HERO  =============================== */

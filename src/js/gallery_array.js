@@ -17,7 +17,16 @@ export const gallery= [
         id: 1,
         img: img1_mob,
         img2: img1_desc,
-        square: '51,7 метри',
-        info: '-1 (напівпідвальний) поверх 013. Кабінет правильної прямокутної форми.Покриття лінолеум',
     },
+    {
+        id: 2,
+        img: img2_mob,
+        img2: img2_desc,
+    },
+    {
+        id: 3,
+        img: img3_mob,
+        img2: img3_desc,
+    },
+
 ]

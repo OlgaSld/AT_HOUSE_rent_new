@@ -6,14 +6,6 @@
     max-width: 1200px;
 }
 
-/* .about,
-.features,
-.premises,
-.gallery,
-.contacts {
-    max-width: 1439px;
-} */
-
 .about-title-wrapper,
 .gallery_title-wrapper,
 .features_title-wrapper,
@@ -23,7 +15,6 @@
     margin-right: auto;    
     width: 486px;
 }
-
 }
 
 /* ---------------------------MEDIA (MIN-WIDTH:1600px)------------------- */
@@ -33,23 +24,6 @@
     .container {
         max-width: 1410px;
     }
-
-    /* .about,
-    .features,
-    .premises,
-    .gallery,
-    .contacts {
-        min-width: 1440px;
-    }
- */
-    /* .about-title-wrapper,
-    .gallery_title-wrapper,
-    .features_title-wrapper,
-    .premises_title-wrapper,
-    .contacts_title-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
 .about-title,
 .features_title,

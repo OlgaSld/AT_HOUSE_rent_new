@@ -2,13 +2,11 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    /* transform: translateX(100%); */
 }
 
 .menu-open-btn {
-    /* margin-right: 36px; */
     border: none;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--color-text-main);
     position: absolute;
     top: 12px;
     right: 44px;
@@ -19,8 +17,8 @@
     top: 10px;
     right: 10px;
     border: none;
-    background-color: rgba(0, 0, 0, 0);
-    fill: #FFF
+    background-color: var(--color-text-main);
+    fill: var(--color-text-accent);
 }
 
 .mob-menu {
@@ -53,11 +51,10 @@
 }
 
 .header-link {
-    color: #FFF;
+    color: var(--color-text-accent);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 

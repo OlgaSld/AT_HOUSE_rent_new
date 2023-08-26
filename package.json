@@ -12,6 +12,7 @@
     "url": "git+https://github.com/OlgaSld/AT_HOUSE_rent_new"
   },
   "dependencies": {
+    "basiclightbox": "^5.0.4",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.14.1",
     "swiper": "^10.2.0"
