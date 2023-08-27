@@ -31,7 +31,6 @@ import img016_2_more_desc from '../images/premises/016_desc/016_1440_1024_02-des
 import img016_3_more_desc from '../images/premises/016_desc/016_1440_1024_03-desc.jpg';
 import img016_4_more_desc from '../images/premises/016_desc/016_1440_1024_04-desc.jpg';
 
-
 export const morePremices = [
     {   
         id: '13',
@@ -82,7 +81,6 @@ export const morePremices = [
         src: '016',
     },
 ]
-
 
 // import img1_mob from '../images/premises/013_mob/013_273_322-min.jpg';
 // import img2_mob from '../images/premises/014_mob/014_273_322-min.jpg';
