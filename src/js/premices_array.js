@@ -1,4 +1,4 @@
-import img013_1_more_mob from './images/premises/013_mob/013_471_354_01-min.jpg';
+import img013_1_more_mob from '../images/premises/013_mob/013_471_354_01-min.jpg';
 import img013_2_more_mob from '../images/premises/013_mob/013_471_354_02-min.jpg';
 import img013_3_more_mob from '../images/premises/013_mob/013_471_354_03-min.jpg';
 import img013_4_more_mob from '../images/premises/013_mob/013_471_354_04-min.jpg';
