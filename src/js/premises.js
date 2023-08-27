@@ -84,22 +84,22 @@ function onOpenPhoto(e) {
         <picture>
         <source srcset=${img1d}" media="(min-width: 821px)" type="image/jpg" />
         <source srcset=${img1m} media="(max-width: 820px)" type="image/jpg" />
-          <img src="${img1m}" alt="${src}" width="471" height="354">
+          <img src="${img1m}" srcSet="${img1d}" alt="${src}" width="471" height="354">
           </picture>
         <picture>
         <source srcset=${img2d}" media="(min-width: 821px)" type="image/jpg"/>
         <source srcset=${img2m} media="(max-width: 820px)" type="image/jpg"/>
-          <img src="${img2m}" alt="${src}" width="471" height="354">
+          <img src="${img2m}" srcSet="${img2d}" alt="${src}" width="471" height="354">
           </picture>
         <picture>
         <source srcset=${img3d}" media="(min-width: 821px)" type="image/jpg" />
         <source srcset=${img3m} media="(max-width: 820px)" type="image/jpg"/>
-          <img src="${img3m}" alt="${src}" width="471" height="354">
+          <img src="${img3m}" srcSet="${img3d}" alt="${src}" width="471" height="354">
           </picture>
         <picture>
         <source srcset=${img4d}" media="(min-width: 821px)" type="image/jpg" />
         <source srcset=${img4m} media="(max-width: 820px)" type="image/jpg"/>
-          <img src="${img4m}" alt="${src}" width="471" height="354">
+          <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
           </picture>
         </li>`).join('');
   morePhoto.insertAdjacentHTML('beforeend', markup)
