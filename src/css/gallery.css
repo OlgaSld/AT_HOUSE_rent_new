@@ -1,6 +1,7 @@
 .gallery-photo {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 55px;
 }
 
 .image-gal {
@@ -10,9 +11,9 @@
 }
 
 
-.gallery_title-wrapper {
-    z-index: 100;
-}
+/* .gallery_title-wrapper {
+    z-index: 1;
+} */
 
 .btn-gallery-prev:hover, .btn-gallery-prev:focus,
 .btn-gallery-next:hover, .btn-gallery-next:focus {

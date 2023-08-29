@@ -67,13 +67,17 @@ nextEl.addEventListener('click', () => {
 
 
 const btnPhoto = document.querySelectorAll('.more-detail');
-const morePhoto = document.querySelector('.more-premices');
-const closePhoto = document.querySelector('.close-photo')
+// const morePhoto = document.querySelector('.more-premices');
+// const closePhoto = document.querySelector('.close-photo');
+const testModal = document.querySelector('.test-container');
+const galWrapper = document.querySelector('.gallery_title-wrapper')
 
-closePhoto.classList.add('visually-hidden')
+// closePhoto.classList.add('visually-hidden')
 
 btnPhoto.forEach((button) => {
-  button.addEventListener('click', onOpenPhoto)});
+  button.addEventListener('click', onOpenPhoto)
+});
+  
 
 function onOpenPhoto(e) {
   e.preventDefault();
@@ -101,26 +105,28 @@ function onOpenPhoto(e) {
         <source srcset="${img4m}" media="(max-width: 1439px)" type="image/jpg"/>
           <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
           </picture>
-        </li>`).join('');
-  morePhoto.insertAdjacentHTML('beforeend', markup)
-  closePhoto.classList.remove('visually-hidden')
-    scroll()
+        <picture>
+        <source srcset="${img4d}" media="(min-width: 1440px)" type="image/jpg" />
+        <source srcset="${img4m}" media="(max-width: 1439px)" type="image/jpg"/>
+          <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
+          </picture>
+
+        </li>      
+`).join('');
+  // morePhoto.insertAdjacentHTML('beforeend', markup)
+  testModal.innerHTML = markup;
+
+ // closePhoto.classList.remove('visually-hidden')
 }
 
-closePhoto.addEventListener('click', onClosePhoto)
+// closePhoto.addEventListener('click', onClosePhoto)
 
-function onClosePhoto() {
-  morePhoto.innerHTML = '';
-  closePhoto.classList.add('visually-hidden');
-  scroll()
-}
-function scroll() {
-  const { height: picture } = document
-  .querySelector(".js-photo-prem")
-  .firstElementChild.getBoundingClientRect();
+// function onClosePhoto() {
+//   morePhoto.innerHTML = '';
+//   closePhoto.classList.add('visually-hidden');
+// }
 
-window.scrollBy({
-  top: picture,
-  behavior: "smooth",
-});
-}
+
+  // galWrapper.classList.remove('visually-hidden')
+
+
