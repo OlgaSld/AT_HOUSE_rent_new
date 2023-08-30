@@ -14,7 +14,6 @@
     overflow: scroll;
     background: rgba(46, 47, 66, 0.4);
     transition: opacity var(--transition-dur-time), visibility var(--transition-dur-time);
-
 }
 
 .backdrop.is-hidden {
@@ -42,7 +41,6 @@
     transform: translate(-50%, -50%) scale(0);
 }
 
-
 .no-scroll {
     overflow: hidden;
 }
@@ -55,26 +53,27 @@
     align-items: center;
     width: 48px;
     height: 48px;
-    background: var(--accent-lines);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--brand-color-blue);
+    border: none;
     border-radius: 50%;
     transition: border-color var(--transition-dur-time), background-color var(--transition-dur-time);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    border-color: var(--accent-color);
-    background-color: var(--accent-color);
+    border: 1px solid var(--brand-color-blue);
+    background-color: var(--color-text-accent);
+    color: var(--brand-color-blue);
 }
 
 .modal-close-btn-icon {
-    fill: var(--background-dark);
-    transition: fill var(--accent-color);
+    fill: var(--color-text-accent);
+    transition: fill var(--brand-color-blue);
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
-    fill: #FFFFFF;
+    fill: var(--brand-color-blue);
 }
 
 .test-container {
@@ -85,10 +84,23 @@
         margin-bottom: 20px;
     }
 
+.close-photo {
+    margin: 20px auto;
+    display: block;
+    padding: 5px 14px;
+    background: var(--brand-color-blue);
+    color: var(--color-text-accent);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
 @media screen and (min-width: 821px) {
     .modal {
         height: 90vh;
         top: 50%;
+        margin-bottom: 20px;
     }
 }
         

@@ -110,8 +110,7 @@ function onOpenPhoto(e) {
         <source srcset="${img4m}" media="(max-width: 1439px)" type="image/jpg"/>
           <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
           </picture>
-
-        </li>      
+        </li>  
 `).join('');
   // morePhoto.insertAdjacentHTML('beforeend', markup)
   testModal.innerHTML = markup;

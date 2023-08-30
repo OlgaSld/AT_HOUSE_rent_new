@@ -1,25 +1,37 @@
 (() => {
   const refs = {
     openModalBtn: document.querySelectorAll("[data-modal-open]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
+    closeModalBtn: document.querySelectorAll("[data-modal-close]"),
     modal: document.querySelector("[data-modal]"),
-    };
-    
-    refs.openModalBtn.forEach((button) => {
-        button.addEventListener("click", toggleModal);
+    closePhoto: document.querySelector('.close-photo')
+  };
+  
+  refs.openModalBtn.forEach((button) => {
+        button.addEventListener("click", openModal);
     })
-      refs.closeModalBtn.addEventListener("click", toggleModal);
+  
+    refs.closeModalBtn.forEach((button) => {
+        button.addEventListener("click", closeModal);
+    })
 
-
-function toggleModal(evt) {
-    refs.modal.classList.toggle("is-hidden");
-    document.body.classList.toggle('no-scroll');
+function openModal() {
+    refs.modal.classList.remove("is-hidden");
+    document.body.classList.add('no-scroll');
     }
 
-    window.addEventListener("keydown", handlerClose);
-
-    function handlerClose(evt) {
-        refs.modal.classList.add("is-hidden");
+function closeModal() {
+    refs.modal.classList.add("is-hidden");
+    document.body.classList.remove('no-scroll');
+}
+  
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      if (!refs.modal.classList.contains('is-hidden')) {
+        refs.modal.classList.add('is-hidden');
+        document.body.classList.remove('modal-open');
+        document.body.classList.remove('no-scroll');
+      }
     }
+  });
 })();
 
