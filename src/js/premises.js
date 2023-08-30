@@ -105,11 +105,6 @@ function onOpenPhoto(e) {
         <source srcset="${img4m}" media="(max-width: 1439px)" type="image/jpg"/>
           <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
           </picture>
-        <picture>
-        <source srcset="${img4d}" media="(min-width: 1440px)" type="image/jpg" />
-        <source srcset="${img4m}" media="(max-width: 1439px)" type="image/jpg"/>
-          <img src="${img4m}" srcSet="${img4d}" alt="${src}" width="471" height="354">
-          </picture>
         </li>  
 `).join('');
   // morePhoto.insertAdjacentHTML('beforeend', markup)
