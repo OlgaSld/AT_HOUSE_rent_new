@@ -74,7 +74,6 @@
 @media screen and (min-width: 821px) {
 
 .wrapper-contacts {
-    margin-left: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +85,6 @@
 @media screen and (min-width: 1440px) {
 
     .wrapper-contacts {
-        margin-left: 131px;
         margin-top: 154px;
         margin-bottom: 93px;
         gap: 100px;
