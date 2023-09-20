@@ -1,1 +1,7 @@
-https://www.athouse.com.ua/sitemap.xml
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.athouse.com.ua/sitemap.xml
