@@ -1,64 +1,66 @@
 /* ============================== PREMISES  =============================== */
 .premises_title-wrapper {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .block-photo-premises {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    margin: 93px auto 83px;
-    background: var(--color-text-accent);
-    box-shadow: 2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06), -2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  margin: 93px auto 83px;
+  background: var(--color-text-accent);
+  box-shadow: 2.986259937286377px 0px 8.212214469909668px 0px
+      rgba(0, 0, 0, 0.06),
+    -2.986259937286377px 0px 8.212214469909668px 0px rgba(0, 0, 0, 0.06);
 }
 
 .more-detail {
-    display: block;
-    padding: 5px 14px;
-    background: var(--brand-color-blue);
-    color: var(--color-text-accent);
-    font-size: 12px;
-    font-weight: 500;
-    margin: 17px auto 30px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
+  display: block;
+  padding: 5px 14px;
+  background: var(--brand-color-blue);
+  color: var(--color-text-accent);
+  font-size: 12px;
+  font-weight: 500;
+  margin: 17px auto 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 .wrapper-text {
-    padding-left: 44px;
-    padding-right: 44px;
+  padding-left: 44px;
+  padding-right: 44px;
 }
 
 .free-premises-sq {
-    color: var(--brand-color-blue);
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 6px;
+  color: var(--brand-color-blue);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 6px;
 }
 
 .free-premises-title {
-    color: var(--color-text-main);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 11px;
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 11px;
 }
 
 .free-premises-info {
-    color: var(--color-text-main);
-    font-size: 12px;
-    font-weight: 300;
-    text-align: center;
-    width: 210px;
+  color: var(--color-text-main);
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  width: 210px;
 }
 
 .js-photo-prem {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 /* .close-photo {
@@ -74,157 +76,159 @@
     cursor: pointer;
 } */
 
-.close-photo:hover, .close-photo:focus,
-.more-detail:hover, .more-detail:focus {
-    background-color: var(--color-text-accent);
-    color: var(--brand-color-blue);
-    border: 1px solid var(--brand-color-blue);
+.close-photo:hover,
+.close-photo:focus,
+.more-detail:hover,
+.more-detail:focus {
+  background-color: var(--color-text-accent);
+  color: var(--brand-color-blue);
+  border: 1px solid var(--brand-color-blue);
 }
 
 .top-block {
-    position: absolute;
-    top: 0;
-    right: 50%;
-    width: 92px;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.10);
-    backdrop-filter: blur(2.2482757568359375px);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 92px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2482757568359375px);
 }
 
 .premises-floor {
-    position: absolute;
-    bottom: 0;
-    left: -10%;
-    color: var(--color-text-accent);
-    text-align: start;
-    font-size: 10px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  color: var(--color-text-accent);
+  text-align: start;
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  transform: rotate(-90deg);
 }
 
 .floor-number {
-    color: var(--color-text-accent);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    margin-right: 8px;
-    margin-left: 25px;
+  color: var(--color-text-accent);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: 8px;
+  margin-left: 25px;
 }
 
 .room-number::before {
-    position: absolute;
-    content: "";
-    width: 0.75px;
-    height: 41px;
-    right: 50%;
-    top: 0;
-    background-color: var(--color-text-accent);
+  position: absolute;
+  content: '';
+  width: 0.75px;
+  height: 41px;
+  right: 50%;
+  top: 0;
+  background-color: var(--color-text-accent);
 }
 
 .room-number {
-    color: var(--color-text-accent);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  color: var(--color-text-accent);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .room-number-first {
-    position: absolute;
-    right: 15px;
-    color: var(--color-text-accent);
-    text-align: start;
-    font-size: 16px;
-    font-weight: 700;
+  position: absolute;
+  right: 15px;
+  color: var(--color-text-accent);
+  text-align: start;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .second {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .container-green {
-    position: absolute;
-    top: 7%;
-    right: 30%;
-    width: 200px;
-    height: 50px;
-    background-color: var(--brand-color-green);
+  position: absolute;
+  top: 7%;
+  right: 30%;
+  width: 200px;
+  height: 50px;
+  background-color: var(--brand-color-green);
 }
 
 .container-blue {
-    position: absolute;
-    bottom: 30%;
-    left: 30%;
-    width: 146px;
-    height: 56px;
-    background-color: var(--brand-color-blue);
+  position: absolute;
+  bottom: 30%;
+  left: 30%;
+  width: 146px;
+  height: 56px;
+  background-color: var(--brand-color-blue);
 }
 
 @media screen and (min-width: 821px) {
-.free-premises-sq {
+  .free-premises-sq {
     font-size: 30px;
-}
+  }
 
-.free-premises-title {
+  .free-premises-title {
     font-size: 24px;
-}
+  }
 
-.free-premises-info {
+  .free-premises-info {
     font-size: 20px;
     width: 371px;
     margin-bottom: 24px;
-}
+  }
 
-.wrapper-text {
-padding-left: 60px;
-padding-right: 60px;
-}
+  .wrapper-text {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
-.more-detail {
+  .more-detail {
     padding: 9px 25px;
     font-size: 21px;
-}
+  }
 
-.free-premises-img {
+  .free-premises-img {
     width: 364px;
     height: 429px;
-}
+  }
 }
 
 .top-block {
-    width: 122px;
-    height: 53px;
-    backdrop-filter: blur(3px);
+  width: 122px;
+  height: 53px;
+  backdrop-filter: blur(3px);
 }
 
 .premises-floor {
-    font-size: 14px;
-    bottom: 5px;
+  font-size: 14px;
+  bottom: 5px;
 }
 
 .floor-number {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .room-number {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .room-number::before {
-    right: 40%;
-    top: 10%;
+  right: 40%;
+  top: 10%;
 }
 
 @media screen and (min-width: 1440px) {
-    .free-premises-sq {
-        font-size: 36px;
-    }
+  .free-premises-sq {
+    font-size: 36px;
+  }
 
-    .wrapper-text {
-        padding-left: 76px;
-        padding-right: 76px;
-    }
+  .wrapper-text {
+    padding-left: 76px;
+    padding-right: 76px;
+  }
 }
 
 /* ============================== /PREMISES  =============================== */
