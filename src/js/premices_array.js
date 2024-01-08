@@ -30,14 +30,14 @@ import img016_1_more_desc from '../images/premises/016_desc/016_1440_1024_01-des
 import img016_2_more_desc from '../images/premises/016_desc/016_1440_1024_02-desc.jpg';
 import img016_3_more_desc from '../images/premises/016_desc/016_1440_1024_03-desc.jpg';
 import img016_4_more_desc from '../images/premises/016_desc/016_1440_1024_04-desc.jpg';
-import img313_1_more_mob from '../images/premises/313_mob/313_471_354_01-min.jpg';
-import img313_2_more_mob from '../images/premises/313_mob/313_471_354_02-min.jpg';
-import img313_3_more_mob from '../images/premises/313_mob/313_471_354_03-min.jpg';
-import img313_4_more_mob from '../images/premises/313_mob/313_471_354_04-min.jpg';
-import img313_1_more_desc from '../images/premises/313_desc/313_1440_1024_01-min.jpg';
-import img313_2_more_desc from '../images/premises/313_desc/313_1440_1024_02-min.jpg';
-import img313_3_more_desc from '../images/premises/313_desc/313_1440_1024_03-min.jpg';
-import img313_4_more_desc from '../images/premises/313_desc/313_1440_1024_04-min.jpg';
+// import img313_1_more_mob from '../images/premises/313_mob/313_471_354_01-min.jpg';
+// import img313_2_more_mob from '../images/premises/313_mob/313_471_354_02-min.jpg';
+// import img313_3_more_mob from '../images/premises/313_mob/313_471_354_03-min.jpg';
+// import img313_4_more_mob from '../images/premises/313_mob/313_471_354_04-min.jpg';
+// import img313_1_more_desc from '../images/premises/313_desc/313_1440_1024_01-min.jpg';
+// import img313_2_more_desc from '../images/premises/313_desc/313_1440_1024_02-min.jpg';
+// import img313_3_more_desc from '../images/premises/313_desc/313_1440_1024_03-min.jpg';
+// import img313_4_more_desc from '../images/premises/313_desc/313_1440_1024_04-min.jpg';
 import img308_1_more_mob from '../images/premises/308_mob/308_471_354_01-min.jpg';
 import img308_2_more_mob from '../images/premises/308_mob/308_471_354_02-min.jpg';
 import img308_3_more_mob from '../images/premises/308_mob/308_471_354_04-min.jpg';
@@ -108,18 +108,18 @@ export const morePremices = [
     img4d: img308_4_more_desc,
     src: '308',
   },
-  {
-    id: '313',
-    img1m: img313_1_more_mob,
-    img2m: img313_2_more_mob,
-    img3m: img313_3_more_mob,
-    img4m: img313_4_more_mob,
-    img1d: img313_1_more_desc,
-    img2d: img313_2_more_desc,
-    img3d: img313_3_more_desc,
-    img4d: img313_4_more_desc,
-    src: '313',
-  },
+  // {
+  //   id: '313',
+  //   img1m: img313_1_more_mob,
+  //   img2m: img313_2_more_mob,
+  //   img3m: img313_3_more_mob,
+  //   img4m: img313_4_more_mob,
+  //   img1d: img313_1_more_desc,
+  //   img2d: img313_2_more_desc,
+  //   img3d: img313_3_more_desc,
+  //   img4d: img313_4_more_desc,
+  //   src: '313',
+  // },
 ];
 
 // import img1_mob from '../images/premises/013_mob/013_273_322-min.jpg';
