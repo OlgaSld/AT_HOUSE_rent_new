@@ -22,14 +22,14 @@ import img015_1_more_desc from '../images/premises/015_desc/015_1440_1024_01-des
 import img015_2_more_desc from '../images/premises/015_desc/015_1440_1024_02-desc.jpg';
 import img015_3_more_desc from '../images/premises/015_desc/015_1440_1024_03-desc.jpg';
 import img015_4_more_desc from '../images/premises/015_desc/015_1440_1024_04-desc.jpg';
-import img016_1_more_mob from '../images/premises/016_mob/016_471_354_01-min.jpg';
-import img016_2_more_mob from '../images/premises/016_mob/016_471_354_02-min.jpg';
-import img016_3_more_mob from '../images/premises/016_mob/016_471_354_03-min.jpg';
-import img016_4_more_mob from '../images/premises/016_mob/016_471_354_04-min.jpg';
-import img016_1_more_desc from '../images/premises/016_desc/016_1440_1024_01-desc.jpg';
-import img016_2_more_desc from '../images/premises/016_desc/016_1440_1024_02-desc.jpg';
-import img016_3_more_desc from '../images/premises/016_desc/016_1440_1024_03-desc.jpg';
-import img016_4_more_desc from '../images/premises/016_desc/016_1440_1024_04-desc.jpg';
+// import img016_1_more_mob from '../images/premises/016_mob/016_471_354_01-min.jpg';
+// import img016_2_more_mob from '../images/premises/016_mob/016_471_354_02-min.jpg';
+// import img016_3_more_mob from '../images/premises/016_mob/016_471_354_03-min.jpg';
+// import img016_4_more_mob from '../images/premises/016_mob/016_471_354_04-min.jpg';
+// import img016_1_more_desc from '../images/premises/016_desc/016_1440_1024_01-desc.jpg';
+// import img016_2_more_desc from '../images/premises/016_desc/016_1440_1024_02-desc.jpg';
+// import img016_3_more_desc from '../images/premises/016_desc/016_1440_1024_03-desc.jpg';
+// import img016_4_more_desc from '../images/premises/016_desc/016_1440_1024_04-desc.jpg';
 // import img313_1_more_mob from '../images/premises/313_mob/313_471_354_01-min.jpg';
 // import img313_2_more_mob from '../images/premises/313_mob/313_471_354_02-min.jpg';
 // import img313_3_more_mob from '../images/premises/313_mob/313_471_354_03-min.jpg';
@@ -108,18 +108,18 @@ export const morePremices = [
     img4d: img015_4_more_desc,
     src: '015',
   },
-  {
-    id: '16',
-    img1m: img016_1_more_mob,
-    img2m: img016_2_more_mob,
-    img3m: img016_3_more_mob,
-    img4m: img016_4_more_mob,
-    img1d: img016_1_more_desc,
-    img2d: img016_2_more_desc,
-    img3d: img016_3_more_desc,
-    img4d: img016_4_more_desc,
-    src: '016',
-  },
+  // {
+  //   id: '16',
+  //   img1m: img016_1_more_mob,
+  //   img2m: img016_2_more_mob,
+  //   img3m: img016_3_more_mob,
+  //   img4m: img016_4_more_mob,
+  //   img1d: img016_1_more_desc,
+  //   img2d: img016_2_more_desc,
+  //   img3d: img016_3_more_desc,
+  //   img4d: img016_4_more_desc,
+  //   src: '016',
+  // },
   {
     id: '308',
     img1m: img308_1_more_mob,
