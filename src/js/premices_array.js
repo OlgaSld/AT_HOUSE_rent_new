@@ -14,14 +14,14 @@ import img014_1_more_desc from '../images/premises/014_desc/014_1440_1024_01-des
 import img014_2_more_desc from '../images/premises/014_desc/014_1440_1024_02-desc.jpg';
 import img014_3_more_desc from '../images/premises/014_desc/014_1440_1024_03-desc.jpg';
 import img014_4_more_desc from '../images/premises/014_desc/014_1440_1024_04-desc.jpg';
-import img015_1_more_mob from '../images/premises/015_mob/015_471_354_01-min.jpg';
-import img015_2_more_mob from '../images/premises/015_mob/015_471_354_02-min.jpg';
-import img015_3_more_mob from '../images/premises/015_mob/015_471_354_03-min.jpg';
-import img015_4_more_mob from '../images/premises/015_mob/015_471_354_04-min.jpg';
-import img015_1_more_desc from '../images/premises/015_desc/015_1440_1024_01-desc.jpg';
-import img015_2_more_desc from '../images/premises/015_desc/015_1440_1024_02-desc.jpg';
-import img015_3_more_desc from '../images/premises/015_desc/015_1440_1024_03-desc.jpg';
-import img015_4_more_desc from '../images/premises/015_desc/015_1440_1024_04-desc.jpg';
+// import img015_1_more_mob from '../images/premises/015_mob/015_471_354_01-min.jpg';
+// import img015_2_more_mob from '../images/premises/015_mob/015_471_354_02-min.jpg';
+// import img015_3_more_mob from '../images/premises/015_mob/015_471_354_03-min.jpg';
+// import img015_4_more_mob from '../images/premises/015_mob/015_471_354_04-min.jpg';
+// import img015_1_more_desc from '../images/premises/015_desc/015_1440_1024_01-desc.jpg';
+// import img015_2_more_desc from '../images/premises/015_desc/015_1440_1024_02-desc.jpg';
+// import img015_3_more_desc from '../images/premises/015_desc/015_1440_1024_03-desc.jpg';
+// import img015_4_more_desc from '../images/premises/015_desc/015_1440_1024_04-desc.jpg';
 // import img016_1_more_mob from '../images/premises/016_mob/016_471_354_01-min.jpg';
 // import img016_2_more_mob from '../images/premises/016_mob/016_471_354_02-min.jpg';
 // import img016_3_more_mob from '../images/premises/016_mob/016_471_354_03-min.jpg';
@@ -46,22 +46,22 @@ import img308_1_more_desc from '../images/premises/308_desc/308_1440_1024_1-min.
 import img308_2_more_desc from '../images/premises/308_desc/308_1440_1024_4-min.jpg';
 import img308_3_more_desc from '../images/premises/308_desc/308_1440_1024_5-min.jpg';
 import img308_4_more_desc from '../images/premises/308_desc/308_1440_1024_6-min.jpg';
-import img407_1_more_mob from '../images/premises/407_mob/407_471_354_1.jpg';
-import img407_2_more_mob from '../images/premises/407_mob/407_471_354_2.jpg';
-import img407_3_more_mob from '../images/premises/407_mob/407_471_354_3.jpg';
-import img407_4_more_mob from '../images/premises/407_mob/407_471_354_4.jpg';
-import img407_1_more_desc from '../images/premises/407_desc/407_1440_1024.jpg';
-import img407_2_more_desc from '../images/premises/407_desc/407_1440_1024_2.jpg';
-import img407_3_more_desc from '../images/premises/407_desc/407_1440_1024_3.jpg';
-import img407_4_more_desc from '../images/premises/407_desc/407_1440_1024_4.jpg';
-import img408_1_more_mob from '../images/premises/408_mob/408_471_354_1.jpg';
-import img408_2_more_mob from '../images/premises/408_mob/408_471_354_2.jpg';
-import img408_3_more_mob from '../images/premises/408_mob/408_471_354_3.jpg';
-import img408_4_more_mob from '../images/premises/408_mob/408_471_354_4.jpg';
-import img408_1_more_desc from '../images/premises/408_desc/408_1440_1024.jpg';
-import img408_2_more_desc from '../images/premises/408_desc/408_1440_1024_2.jpg';
-import img408_3_more_desc from '../images/premises/408_desc/408_1440_1024_3.jpg';
-import img408_4_more_desc from '../images/premises/408_desc/408_1440_1024_4-min.jpg';
+// import img407_1_more_mob from '../images/premises/407_mob/407_471_354_1.jpg';
+// import img407_2_more_mob from '../images/premises/407_mob/407_471_354_2.jpg';
+// import img407_3_more_mob from '../images/premises/407_mob/407_471_354_3.jpg';
+// import img407_4_more_mob from '../images/premises/407_mob/407_471_354_4.jpg';
+// import img407_1_more_desc from '../images/premises/407_desc/407_1440_1024.jpg';
+// import img407_2_more_desc from '../images/premises/407_desc/407_1440_1024_2.jpg';
+// import img407_3_more_desc from '../images/premises/407_desc/407_1440_1024_3.jpg';
+// import img407_4_more_desc from '../images/premises/407_desc/407_1440_1024_4.jpg';
+// import img408_1_more_mob from '../images/premises/408_mob/408_471_354_1.jpg';
+// import img408_2_more_mob from '../images/premises/408_mob/408_471_354_2.jpg';
+// import img408_3_more_mob from '../images/premises/408_mob/408_471_354_3.jpg';
+// import img408_4_more_mob from '../images/premises/408_mob/408_471_354_4.jpg';
+// import img408_1_more_desc from '../images/premises/408_desc/408_1440_1024.jpg';
+// import img408_2_more_desc from '../images/premises/408_desc/408_1440_1024_2.jpg';
+// import img408_3_more_desc from '../images/premises/408_desc/408_1440_1024_3.jpg';
+// import img408_4_more_desc from '../images/premises/408_desc/408_1440_1024_4-min.jpg';
 import img413_1_more_mob from '../images/premises/413_mob/413_471_354_1.jpg';
 import img413_2_more_mob from '../images/premises/413_mob/413_471_354_2.jpg';
 import img413_3_more_mob from '../images/premises/413_mob/413_471_354_3.jpg';
@@ -96,18 +96,18 @@ export const morePremices = [
     img4d: img014_4_more_desc,
     src: '014',
   },
-  {
-    id: '15',
-    img1m: img015_1_more_mob,
-    img2m: img015_2_more_mob,
-    img3m: img015_3_more_mob,
-    img4m: img015_4_more_mob,
-    img1d: img015_1_more_desc,
-    img2d: img015_2_more_desc,
-    img3d: img015_3_more_desc,
-    img4d: img015_4_more_desc,
-    src: '015',
-  },
+  // {
+  //   id: '15',
+  //   img1m: img015_1_more_mob,
+  //   img2m: img015_2_more_mob,
+  //   img3m: img015_3_more_mob,
+  //   img4m: img015_4_more_mob,
+  //   img1d: img015_1_more_desc,
+  //   img2d: img015_2_more_desc,
+  //   img3d: img015_3_more_desc,
+  //   img4d: img015_4_more_desc,
+  //   src: '015',
+  // },
   // {
   //   id: '16',
   //   img1m: img016_1_more_mob,
@@ -145,31 +145,31 @@ export const morePremices = [
   //   src: '313',
   // },
 
-  {
-    id: '407',
-    img1m: img407_1_more_mob,
-    img2m: img407_2_more_mob,
-    img3m: img407_3_more_mob,
-    img4m: img407_4_more_mob,
-    img1d: img407_1_more_desc,
-    img2d: img407_2_more_desc,
-    img3d: img407_3_more_desc,
-    img4d: img407_4_more_desc,
-    src: '407',
-  },
+  // {
+  //   id: '407',
+  //   img1m: img407_1_more_mob,
+  //   img2m: img407_2_more_mob,
+  //   img3m: img407_3_more_mob,
+  //   img4m: img407_4_more_mob,
+  //   img1d: img407_1_more_desc,
+  //   img2d: img407_2_more_desc,
+  //   img3d: img407_3_more_desc,
+  //   img4d: img407_4_more_desc,
+  //   src: '407',
+  // },
 
-  {
-    id: '408',
-    img1m: img408_1_more_mob,
-    img2m: img408_2_more_mob,
-    img3m: img408_3_more_mob,
-    img4m: img408_4_more_mob,
-    img1d: img408_1_more_desc,
-    img2d: img408_2_more_desc,
-    img3d: img408_3_more_desc,
-    img4d: img408_4_more_desc,
-    src: '408',
-  },
+  // {
+  //   id: '408',
+  //   img1m: img408_1_more_mob,
+  //   img2m: img408_2_more_mob,
+  //   img3m: img408_3_more_mob,
+  //   img4m: img408_4_more_mob,
+  //   img1d: img408_1_more_desc,
+  //   img2d: img408_2_more_desc,
+  //   img3d: img408_3_more_desc,
+  //   img4d: img408_4_more_desc,
+  //   src: '408',
+  // },
 
   {
     id: '413',
