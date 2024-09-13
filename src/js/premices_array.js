@@ -62,14 +62,14 @@ import img308_4_more_desc from '../images/premises/308_desc/308_1440_1024_6-min.
 // import img408_2_more_desc from '../images/premises/408_desc/408_1440_1024_2.jpg';
 // import img408_3_more_desc from '../images/premises/408_desc/408_1440_1024_3.jpg';
 // import img408_4_more_desc from '../images/premises/408_desc/408_1440_1024_4-min.jpg';
-import img413_1_more_mob from '../images/premises/413_mob/413_471_354_1.jpg';
-import img413_2_more_mob from '../images/premises/413_mob/413_471_354_2.jpg';
-import img413_3_more_mob from '../images/premises/413_mob/413_471_354_3.jpg';
-import img413_4_more_mob from '../images/premises/413_mob/413_471_354_4.jpg';
-import img413_1_more_desc from '../images/premises/413_desc/413_1440_1024.jpg';
-import img413_2_more_desc from '../images/premises/413_desc/413_1440_1024_2.jpg';
-import img413_3_more_desc from '../images/premises/413_desc/413_1440_1024_3.jpg';
-import img413_4_more_desc from '../images/premises/413_desc/413_1440_1024_4.jpg';
+// import img413_1_more_mob from '../images/premises/413_mob/413_471_354_1.jpg';
+// import img413_2_more_mob from '../images/premises/413_mob/413_471_354_2.jpg';
+// import img413_3_more_mob from '../images/premises/413_mob/413_471_354_3.jpg';
+// import img413_4_more_mob from '../images/premises/413_mob/413_471_354_4.jpg';
+// import img413_1_more_desc from '../images/premises/413_desc/413_1440_1024.jpg';
+// import img413_2_more_desc from '../images/premises/413_desc/413_1440_1024_2.jpg';
+// import img413_3_more_desc from '../images/premises/413_desc/413_1440_1024_3.jpg';
+// import img413_4_more_desc from '../images/premises/413_desc/413_1440_1024_4.jpg';
 
 export const morePremices = [
   // {
@@ -171,18 +171,18 @@ export const morePremices = [
   //   src: '408',
   // },
 
-  {
-    id: '413',
-    img1m: img413_1_more_mob,
-    img2m: img413_2_more_mob,
-    img3m: img413_3_more_mob,
-    img4m: img413_4_more_mob,
-    img1d: img413_1_more_desc,
-    img2d: img413_2_more_desc,
-    img3d: img413_3_more_desc,
-    img4d: img413_4_more_desc,
-    src: '413',
-  },
+  // {
+  //   id: '413',
+  //   img1m: img413_1_more_mob,
+  //   img2m: img413_2_more_mob,
+  //   img3m: img413_3_more_mob,
+  //   img4m: img413_4_more_mob,
+  //   img1d: img413_1_more_desc,
+  //   img2d: img413_2_more_desc,
+  //   img3d: img413_3_more_desc,
+  //   img4d: img413_4_more_desc,
+  //   src: '413',
+  // },
 ];
 
 // import img1_mob from '../images/premises/013_mob/013_273_322-min.jpg';
