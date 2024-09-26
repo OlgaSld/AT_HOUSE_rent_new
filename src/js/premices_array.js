@@ -38,14 +38,14 @@ import img014_4_more_desc from '../images/premises/014_desc/014_1440_1024_04-des
 // import img313_2_more_desc from '../images/premises/313_desc/313_1440_1024_02-min.jpg';
 // import img313_3_more_desc from '../images/premises/313_desc/313_1440_1024_03-min.jpg';
 // import img313_4_more_desc from '../images/premises/313_desc/313_1440_1024_04-min.jpg';
-import img308_1_more_mob from '../images/premises/308_mob/308_471_354_01-min.jpg';
-import img308_2_more_mob from '../images/premises/308_mob/308_471_354_02-min.jpg';
-import img308_3_more_mob from '../images/premises/308_mob/308_471_354_04-min.jpg';
-import img308_4_more_mob from '../images/premises/308_mob/308_471_354_05-min.jpg';
-import img308_1_more_desc from '../images/premises/308_desc/308_1440_1024_1-min.jpg';
-import img308_2_more_desc from '../images/premises/308_desc/308_1440_1024_4-min.jpg';
-import img308_3_more_desc from '../images/premises/308_desc/308_1440_1024_5-min.jpg';
-import img308_4_more_desc from '../images/premises/308_desc/308_1440_1024_6-min.jpg';
+// import img308_1_more_mob from '../images/premises/308_mob/308_471_354_01-min.jpg';
+// import img308_2_more_mob from '../images/premises/308_mob/308_471_354_02-min.jpg';
+// import img308_3_more_mob from '../images/premises/308_mob/308_471_354_04-min.jpg';
+// import img308_4_more_mob from '../images/premises/308_mob/308_471_354_05-min.jpg';
+// import img308_1_more_desc from '../images/premises/308_desc/308_1440_1024_1-min.jpg';
+// import img308_2_more_desc from '../images/premises/308_desc/308_1440_1024_4-min.jpg';
+// import img308_3_more_desc from '../images/premises/308_desc/308_1440_1024_5-min.jpg';
+// import img308_4_more_desc from '../images/premises/308_desc/308_1440_1024_6-min.jpg';
 // import img407_1_more_mob from '../images/premises/407_mob/407_471_354_1.jpg';
 // import img407_2_more_mob from '../images/premises/407_mob/407_471_354_2.jpg';
 // import img407_3_more_mob from '../images/premises/407_mob/407_471_354_3.jpg';
@@ -120,18 +120,18 @@ export const morePremices = [
   //   img4d: img016_4_more_desc,
   //   src: '016',
   // },
-  {
-    id: '308',
-    img1m: img308_1_more_mob,
-    img2m: img308_2_more_mob,
-    img3m: img308_3_more_mob,
-    img4m: img308_4_more_mob,
-    img1d: img308_1_more_desc,
-    img2d: img308_2_more_desc,
-    img3d: img308_3_more_desc,
-    img4d: img308_4_more_desc,
-    src: '308',
-  },
+  // {
+  //   id: '308',
+  //   img1m: img308_1_more_mob,
+  //   img2m: img308_2_more_mob,
+  //   img3m: img308_3_more_mob,
+  //   img4m: img308_4_more_mob,
+  //   img1d: img308_1_more_desc,
+  //   img2d: img308_2_more_desc,
+  //   img3d: img308_3_more_desc,
+  //   img4d: img308_4_more_desc,
+  //   src: '308',
+  // },
   // {
   //   id: '313',
   //   img1m: img313_1_more_mob,

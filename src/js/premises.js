@@ -1,14 +1,14 @@
 import { morePremices } from './premices_array';
 
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 10,
   centeredSlides: true,
   initialSlide: 1,
   effect: 'coverflow',
   coverflowEffect: {
     rotate: 30,
-    slideShadows: false,
+    slideShadows: true,
   },
   keyboard: {
     enabled: true,
@@ -17,7 +17,7 @@ const swiper = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 10,
     },
     // when window width is >= 480px
