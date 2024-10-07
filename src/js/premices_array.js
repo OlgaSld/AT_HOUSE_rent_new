@@ -6,14 +6,14 @@
 // import img013_2_more_desc from '../images/premises/013_desc/013_1440_1024_02-desc.jpg';
 // import img013_3_more_desc from '../images/premises/013_desc/013_1440_1024_03-desc.jpg';
 // import img013_4_more_desc from '../images/premises/013_desc/013_1440_1024_04-desc.jpg';
-import img014_1_more_mob from '../images/premises/014_mob/014_471_354_01-min.jpg';
-import img014_2_more_mob from '../images/premises/014_mob/014_471_354_02-min.jpg';
-import img014_3_more_mob from '../images/premises/014_mob/014_471_354_03-min.jpg';
-import img014_4_more_mob from '../images/premises/014_mob/014_471_354_04-min.jpg';
-import img014_1_more_desc from '../images/premises/014_desc/014_1440_1024_01-desc.jpg';
-import img014_2_more_desc from '../images/premises/014_desc/014_1440_1024_02-desc.jpg';
-import img014_3_more_desc from '../images/premises/014_desc/014_1440_1024_03-desc.jpg';
-import img014_4_more_desc from '../images/premises/014_desc/014_1440_1024_04-desc.jpg';
+// import img014_1_more_mob from '../images/premises/014_mob/014_471_354_01-min.jpg';
+// import img014_2_more_mob from '../images/premises/014_mob/014_471_354_02-min.jpg';
+// import img014_3_more_mob from '../images/premises/014_mob/014_471_354_03-min.jpg';
+// import img014_4_more_mob from '../images/premises/014_mob/014_471_354_04-min.jpg';
+// import img014_1_more_desc from '../images/premises/014_desc/014_1440_1024_01-desc.jpg';
+// import img014_2_more_desc from '../images/premises/014_desc/014_1440_1024_02-desc.jpg';
+// import img014_3_more_desc from '../images/premises/014_desc/014_1440_1024_03-desc.jpg';
+// import img014_4_more_desc from '../images/premises/014_desc/014_1440_1024_04-desc.jpg';
 // import img015_1_more_mob from '../images/premises/015_mob/015_471_354_01-min.jpg';
 // import img015_2_more_mob from '../images/premises/015_mob/015_471_354_02-min.jpg';
 // import img015_3_more_mob from '../images/premises/015_mob/015_471_354_03-min.jpg';
@@ -84,18 +84,18 @@ export const morePremices = [
   //     img4d: img013_4_more_desc,
   //     src: '013',
   // },
-  {
-    id: '14',
-    img1m: img014_1_more_mob,
-    img2m: img014_2_more_mob,
-    img3m: img014_3_more_mob,
-    img4m: img014_4_more_mob,
-    img1d: img014_1_more_desc,
-    img2d: img014_2_more_desc,
-    img3d: img014_3_more_desc,
-    img4d: img014_4_more_desc,
-    src: '014',
-  },
+  // {
+  //   id: '14',
+  //   img1m: img014_1_more_mob,
+  //   img2m: img014_2_more_mob,
+  //   img3m: img014_3_more_mob,
+  //   img4m: img014_4_more_mob,
+  //   img1d: img014_1_more_desc,
+  //   img2d: img014_2_more_desc,
+  //   img3d: img014_3_more_desc,
+  //   img4d: img014_4_more_desc,
+  //   src: '014',
+  // },
   // {
   //   id: '15',
   //   img1m: img015_1_more_mob,
@@ -144,7 +144,6 @@ export const morePremices = [
   //   img4d: img313_4_more_desc,
   //   src: '313',
   // },
-
   // {
   //   id: '407',
   //   img1m: img407_1_more_mob,
@@ -157,7 +156,6 @@ export const morePremices = [
   //   img4d: img407_4_more_desc,
   //   src: '407',
   // },
-
   // {
   //   id: '408',
   //   img1m: img408_1_more_mob,
@@ -170,7 +168,6 @@ export const morePremices = [
   //   img4d: img408_4_more_desc,
   //   src: '408',
   // },
-
   // {
   //   id: '413',
   //   img1m: img413_1_more_mob,

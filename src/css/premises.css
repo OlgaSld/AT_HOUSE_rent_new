@@ -165,6 +165,15 @@
   background-color: var(--brand-color-blue);
 }
 
+.request_premises {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 821px) {
   .free-premises-sq {
     font-size: 30px;
